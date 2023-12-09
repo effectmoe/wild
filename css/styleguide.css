@@ -1,0 +1,302 @@
+:root { 
+  --aluminium: #abb0b2;
+  --cararra: #ececec;
+  --wildphotocomblack: #000000;
+  --wildphotocomboulder: #767676;
+  --wildphotocomburnt-sienna: #e85c41;
+  --wildphotocomgallery: #efefef;
+  --wildphotocomgray: #808080;
+  --wildphotocomgray-chateau: #9ca3af;
+  --wildphotocomjapanese-laurel: #ffa611;
+  --wildphotocommine-shaft: #333333;
+  --wildphotocomnero: #ffffff;
+  --wildphotocomnero-85: #ffffffd9;
+  --wildphotocomrobins-egg-blue: #ffe5cc;
+  --wildphotocomsilver: #cccccc;
+  --wildphotocomsilver-chalice: #aaaaaa;
+ 
+  --font-size-11px: 11px;
+  --font-size-13_7px: 13.7px;
+  --font-size-13_8px: 13.8px;
+  --font-size-13_9px: 13.9px;
+  --font-size-14px: 14px;
+  --font-size-15_5px: 15.5px;
+  --font-size-15_6px: 15.6px;
+  --font-size-15_9px: 15.9px;
+  --font-size-15px: 15px;
+  --font-size-16_5px: 16.5px;
+  --font-size-17_6px: 17.6px;
+  --font-size-18px: 18px;
+  --font-size-23_8px: 23.8px;
+  --font-size-24px: 24px;
+  --font-size-36px: 36px;
+  --font-size-48px: 48px;
+  --font-size-72px: 72px;
+  --font-size-l: 30px;
+  --font-size-m: 20px;
+  --font-size-s: 19.8px;
+  --font-size-xs: 19.7px;
+  --font-size-xxs: 16px;
+  --font-size-xxxs: 15.8px;
+  --font-size-xxxxs: 12px;
+ 
+  --font-family-helvetica-regular: "Helvetica-Regular", Helvetica;
+  --font-family-lato: "Lato", Helvetica;
+  --font-family-oswald: "Oswald", Helvetica;
+  --font-family-roboto: "Roboto", Helvetica;
+}
+.wildphotocomrobotothin-36 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-36px);
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotosemibold-72 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-72px);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotothin-30 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-30 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotothin-48 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-48px);
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-1984 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-20 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-16 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-1378 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-13_8px);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-1389 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-13_9px);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-1367 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-13_7px);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-1575 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-14 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-14px);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-1588 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-15_9px);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-1563 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-15_6px);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-2381 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-23_8px);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-24 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-24px);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-1758 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-17_6px);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-1969 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotosemibold-36 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-36px);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotothin-24 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-24px);
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-18 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-18px);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomrobotoregular-155 {
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-15_5px);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomlatoregular-20 {
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomlatosemibold-20 {
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.wildphotocomlatoregular-16 {
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomhelveticaregular-165 {
+  font-family: var(--font-family-helvetica-regular);
+  font-size: var(--font-size-16_5px);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomhelveticaregular-11 {
+  font-family: var(--font-family-helvetica-regular);
+  font-size: var(--font-size-11px);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomhelveticaregular-15 {
+  font-family: var(--font-family-helvetica-regular);
+  font-size: var(--font-size-15px);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomhelveticaregular-12 {
+  font-family: var(--font-family-helvetica-regular);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomhelveticaregular-18 {
+  font-family: var(--font-family-helvetica-regular);
+  font-size: var(--font-size-18px);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.wildphotocomoswaldregular-30 {
+  font-family: var(--font-family-oswald);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
