@@ -1,0 +1,5 @@
+import{o,b as d,q as a,l as n,k as l}from"./entry.a8bdde5b.js";var c={name:"Card"};const p={class:"p-card p-component"},h={key:0,class:"p-card-header"},u={class:"p-card-body"},m={key:0,class:"p-card-title"},f={key:1,class:"p-card-subtitle"},v={class:"p-card-content"},y={key:2,class:"p-card-footer"};function $(e,r,i,s,t,C){return o(),d("div",p,[e.$slots.header?(o(),d("div",h,[a(e.$slots,"header")])):n("",!0),l("div",u,[e.$slots.title?(o(),d("div",m,[a(e.$slots,"title")])):n("",!0),e.$slots.subtitle?(o(),d("div",f,[a(e.$slots,"subtitle")])):n("",!0),l("div",v,[a(e.$slots,"content")]),e.$slots.footer?(o(),d("div",y,[a(e.$slots,"footer")])):n("",!0)])])}function _(e,r){r===void 0&&(r={});var i=r.insertAt;if(!(!e||typeof document>"u")){var s=document.head||document.getElementsByTagName("head")[0],t=document.createElement("style");t.type="text/css",i==="top"&&s.firstChild?s.insertBefore(t,s.firstChild):s.appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.appendChild(document.createTextNode(e))}}var k=`
+.p-card-header img {
+    width: 100%;
+}
+`;_(k);c.render=$;export{c as default};

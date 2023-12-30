@@ -1,0 +1,30 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSuper() {
+      // XXX 書き換え用
+      return request.auth != null && (request.auth.uid == 'QxEQhYJVEBUGxSx6CuSZVWCb2cb2');
+    }
+    function isManager() {
+      return request.auth != null && (isSuper() || get(/databases/$(database)/documents/managers/$(request.auth.uid)).data.role > 100);
+    }
+    match /{document=**} {
+      allow read, write: if
+          request.time < timestamp.date(2023, 6, 7);
+    }
+    match /persons/{personuid}{
+      allow write;
+      allow read: if isManager()
+    }
+    match /tokens/{fcmtoken}{
+      allow write;
+      allow read: if isManager()
+    }
+    match /notifications/{notificationid}{
+      allow read, write: if isManager()
+    }
+    match /summary/{summaryid}{
+      allow read: if isManager()
+    }
+  }
+}

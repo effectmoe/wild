@@ -1,0 +1,1 @@
+import{x as e,ao as n}from"./entry.a8bdde5b.js";const a=o=>()=>o.value++,t=o=>()=>o.value--,c=o=>()=>o.value=0,r=()=>{const o=e("loadingcount",()=>0);return{loadingcount:n(o),showLoading:a(o),hideLoading:t(o),hideLoadingForce:c(o)}};export{r as l};

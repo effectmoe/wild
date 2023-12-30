@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "wild-cb814"
+  },
+  "targets": {
+    "wild-cb814": {
+      "hosting": {
+        "public": [
+          "wild-cb814"
+        ],
+        "private": [
+          "wild-private"
+        ]
+      }
+    }
+  }
+}

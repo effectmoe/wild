@@ -1,0 +1,103 @@
+html {
+    font-size: 14px;
+}
+
+.firebase-emulator-warning {
+    display: none;
+}
+
+.layout-sidebar {
+    background-color: #1f2d40;
+}
+
+.layout-menu li .layout-menuitem-root-text {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.layout-menu li a.router-link-exact-active {
+    color: #64B5F6
+}
+
+.layout-menu li a {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.layout-menu li a:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.p-datatable-header {
+    border-width: 1px !important;
+}
+
+.crud-demo .p-datatable-wrapper {
+    min-height: calc(100vh - 302px);
+}
+
+.p-datatable-wrapper {
+    border: 1px solid #e9ecef;
+    border-width:0 1px 1px 1px !important;
+}
+
+.p-dialog.fullscreen {
+    margin: 0 !important;
+    height: 100% !important;
+    max-height: 100% !important;
+}
+
+.p-dialog.fullscreen .p-dialog-content {
+    height: 100%;
+}
+
+.p-dialog .p-dialog-content {
+    /* 小数点での制御により隙間が空いてしまう場合があるので少し上下にはみ出す */
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.p-dialog-footer {
+    padding-top: 1.5rem !important;
+}
+
+.p-datatable-loading-overlay.p-component-overlay {
+    background-color: transparent;
+}
+
+.p-datatable.p-datatable-striped .p-datatable-tbody > tr.nodata {
+    background: transparent !important;
+}
+
+.p-datatable.p-datatable-striped .p-datatable-tbody > tr.nodata > td {
+    border-width: 0 0 0 0 !important;
+}
+body>div>.layout-wrapper>.layout-main-container>.layout-main>.grid>.col-12 {
+    padding-bottom: 0;
+}
+body>div>.layout-wrapper>.layout-main-container>.layout-main>.grid>.col-12>.card {
+    margin-bottom: 0;
+}
+
+.noteclear {
+    font-size: x-small !important;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -15px;    
+}
+
+.assetcard:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 766px) {
+    .p-paginator {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .p-paginator-current {
+        font-size: 10px;
+    }
+    .p-datatable-wrapper {
+        min-height: calc(100vh - 19rem);
+    }
+}
